@@ -1,19 +1,26 @@
 html {
     font-size: 16px;
 }
-.container-fluid {
+.container-fluid > * {
+    text-align: center;
+    font-size: 2rem;
+}
+.nav {
     background-color: blue;
     text-align: center;
-    padding: 2rem;
-}
-.header a {
-    text-decoration: none;
-    font-size: 1.5rem;
+    height: 5vh;
 }
 .left {
     background-color: maroon;
 }
 .right {
     background-color: blueviolet;
+}
+.left, .right {
+    max-height: 100%;
+    height: 90vh;
+}
+.footer {
+    background-color: yellowgreen;
 }
 
