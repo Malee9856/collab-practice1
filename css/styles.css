@@ -26,29 +26,37 @@ html {
 }
 /* Jumbotron */
 .jumbotron-cont {
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .row-jumbo {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .jumbo-section {
-    border: 1px solid orange;
-    /* height: 40vh; */
+    /* border: 1px solid orange; */
+    height: 30vh;
     background-color: gray;
 }
 .section-left {
     background-color: blue;
 }
 .section-right {
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .top {
     background-color: brown;
+    
 }
 .middle {
     background-color: red;
+    
 }
 .bottom {
     background-color: magenta;
+    
 }
-
+.bottom-left {
+    background-color: bisque;
+}
+.bottom-right {
+    background-color: aqua;
+}
